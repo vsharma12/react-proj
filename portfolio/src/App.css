@@ -1,0 +1,423 @@
+/* main page */
+
+*{
+    padding:0rem;
+    margin:0rem;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.main--box{
+    width:60vw;
+    height:auto;
+    /* border:none; */
+}
+.main--div{
+    background-color: #35363B;
+    color:white;
+    height:30rem;  
+    display: flex;
+    /* 50vh */ 
+}
+.main--footer{
+    height:5rem;
+    background-color:#FF9801;
+    
+}
+
+.main--userImg{
+    width:30%;
+    height:100%;
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.main--userImg img{
+    width:auto;
+    height:auto;
+    border-radius:50%;
+    padding:10rem;
+    
+}
+.main--userDetails{
+    padding:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+    width:60%;
+}
+.tb--content{
+    color:white;
+    margin-top:1rem;
+    font-size: 1rem;
+    /* max-width:350rem; */
+    /* border:1rem solid red; */
+}
+.tb--content .capital{
+    text-transform: uppercase;
+    color: #d4d4d5;
+}
+.tb--content .user--deta{
+    color: #84898e;
+}
+.main--footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    margin:2rem;
+    border-radius:50%;
+    padding:1rem;
+    font-size:1.3rem;
+}
+a:hover{
+    color:inherit;
+}
+a .icons:hover{
+    cursor: pointer;
+    background-color:rgba(42, 36, 36, 0.239);
+    transition:1.9s;
+    /* background-color: red; */
+}
+
+
+/* navbar  */
+#check{
+  display: none;
+}
+.navbar{
+  padding:25px;
+  position: relative;
+  /* border:1px solid red; */
+}
+.menu--image{
+  width:30px;
+  position:absolute;
+  right:35px;
+}
+.img--logo{
+  width:3rem;
+  /* border:1px solid red; */
+  cursor: pointer;
+  /* position: absolute; */
+  /* left:10px; */
+}
+.navbar--link{
+  color:black;
+  font-size:19px;
+  padding:7px 13px;
+  border-radius: 3px;
+}
+nav ul{
+  float:right;
+  margin-right:20px;
+}
+nav ul li{
+display: inline;
+margin:0 5px;
+}
+.navbar--link:hover{
+background-color: #1b9bff;
+transition: .5s;
+cursor: pointer;
+}
+.menu--bar{
+float:right;
+}
+.logo{
+font-size:22px;
+margin-left:50px;
+}
+.menu--bar img{
+width:20px;
+height:20px;
+cursor: pointer;
+display: none;
+}
+
+
+
+/* .navbar{
+    cursor:pointer;
+}
+.navwindow--options{
+    
+    margin:0 auto;
+    display: flex;
+    font-size:1.4rem;
+}
+.navbar{
+    
+    text-decoration: none;
+    background-color: #fff;
+}
+.navwindow--options .navbar:hover::after {
+    
+    content: "";
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    bottom: 0;
+    border: 0.4px solid black;
+    transition:2s all ease;
+} */
+
+
+/* Skills section */
+#Skills--area{
+    /* border:1px solid white; */
+    background-color:#27292E;
+    color:white;
+}
+#Skills--area h1{
+    text-align: center;
+    margin-bottom:3rem;
+}
+#main{
+    /* border:1px solid red; */
+    padding:4rem;
+    margin:0 auto;
+    width:60%;
+    background-color: #35363B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .box{
+    /* border:1px solid red; */
+    width:100%;
+    height:15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .dabba{
+    /* border:1px solid yellow; */
+    background-color:#5D492F;
+    border-radius:10px;
+    width:330px;
+    height:2px;
+    margin:12px 0;
+  }
+  .percentage{
+      /* border:1px solid  white; */
+    width:100%;
+    border-radius: 15px 0px 0px 15px;
+    background-color: #FF9801;
+    height:100%;
+  }
+  #dabba_1,#dabba_2,#dabba_3,#dabba_4,#dabba_5,#dabba_6{
+    position:relative;
+  }
+  #dabba_1::before{
+    content: 'Html';
+    position:absolute;
+    top:-2rem;
+  }
+  #dabba_1 div{
+      width:90%;
+  }
+  #dabba_1::after{
+    content: '90%';
+    position:absolute;
+    top:-2rem;
+    right:0;
+  }
+  #dabba_2 div{
+    width:70%;
+  }   
+  #dabba_2::before{
+    content: 'CSS';
+    position:absolute;
+    top:-2rem;
+  }
+  #dabba_2::after{
+    content: '70%';
+    position:absolute;
+    top:-2rem;
+    right:0;
+  }
+
+  #dabba_3::before{
+    content: 'Bootstrap';
+    position:absolute;
+    top:-2rem;
+  }
+  #dabba_3 div{
+    width:80%;
+  }
+  #dabba_3::after{
+    content: '80%';
+    position:absolute;
+    top:-2rem;
+    right:0;
+  }
+  #dabba_4::before{
+    content: 'MySQL';
+    position:absolute;
+    top:-2rem;
+  }
+  #dabba_4 div{
+    width:50%;
+  }
+  #dabba_4::after{
+    content: '50%';
+    position:absolute;
+    top:-2rem;
+    right:0;
+  }
+  #dabba_5::before{
+    content: 'JavaScript';
+    position:absolute;
+    top:-2rem;
+  }
+  #dabba_5 div{
+    width:60%;
+  }
+  #dabba_5::after{
+    content: '65%';
+    position:absolute;
+    top:-2rem;
+    right:0;
+  }
+  #dabba_6::before{
+    content: 'Python';
+    position:absolute;
+    top:-2rem;
+  }
+  #dabba_6 div{
+    width:40%;
+  }
+  #dabba_6::after{
+    content: '40%';
+    position:absolute;
+    top:-2rem;
+    right:0;
+  }
+
+  /* Education section */
+  .Educational--section{
+    background-color:#27292E;
+    color:white;
+    display: flex ;
+    flex-direction: column;
+    height:80vh;
+    align-items: center;
+  }
+  .education--main{
+    /* border:1px solid white; */
+    /* height:; */
+    width:90vw;
+    display: flex;
+  }
+  .education--line{
+    position:relative;
+    width:0.01%;
+    height:400px;
+    margin:0 3rem;
+    border:1px solid white;
+  }
+  .education--box1, .education--box2{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:0 auto;
+    /* border:1px solid white; */
+    width:32%;
+  }
+  .education--box2{
+    justify-content: center;
+  }
+  .education--line::after{
+    position:absolute;
+    content: '•';
+    left:-6px;
+    top:22px;
+    font-size:2rem;
+  }
+  
+  .education--line::before{
+    position:absolute;
+    content: '•';
+    bottom:30px;
+    left:-6px;
+    font-size:2rem;
+  }
+  .box1-box1{
+      border-top:5px solid #F39101;
+      width:100%;
+      height:140px;
+      position:relative;
+      margin-top:6px;
+      margin:0 auto;
+    }
+    .box1-box1::after{
+      content:'';
+      position:absolute;
+      width:25px;
+      height:40px;
+      top:27px;
+      right:-1px;
+      transform: rotate(45deg);
+      border-bottom:none;
+      border-left:none;
+      background-color: #35363B;
+      }
+    .box1-box2{
+      border-top:5px solid #F39101;
+      width:100%;
+      height:140px;
+      position:relative;
+      margin-top:6px;
+      margin:0 auto;
+    }
+    .box1-box2::after{
+      content:'';
+      position:absolute;
+      width:25px;
+      height:40px;
+      top:75px;
+      right:-1px;
+      transform: rotate(45deg);
+      border-bottom:none;
+      border-left:none;
+      background-color: #35363B;
+    }
+  
+    .box2-box1{
+      width:100%;
+      display: flex;
+      flex-direction: column;
+      height:140px;
+      position:relative;
+      margin:0 auto;
+      text-align:right;
+      border-top:5px solid #F39101;
+    }
+    .box2-box1::after{
+      top:45%;
+      content:'';
+      width:25px;
+      height:25px;
+      left:-6px;
+      border-right:none;
+      border-top:none;
+      position:absolute;
+      background-color: #35363B;
+      transform: rotate(45deg);
+    }
+    .color{
+      background-color: #35363B;
+      padding:1.2rem; 
+    }
+    .Educational--section h1{
+      margin:3rem 0;
+      /* margin-bottom: 3rem; */
+    }

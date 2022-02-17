@@ -1,0 +1,90 @@
+  /* css for responsivness in code */
+ 
+@media screen and (min-width:321px) and (max-width:1240px){
+html{
+    font-size: 55%;
+}
+.main--box{
+    width:38rem;
+}
+.img--logo{
+  width: 4rem;
+  height:4rem;
+  margin-left:3rem;
+}
+.main--body{
+  height:80vh;
+}
+.skills--area{
+  width:100%;
+}
+#main{
+  display:flex;
+  flex-direction: column;
+  width:85%;
+}
+.dabba{
+  width:100%;
+}
+.education--main{
+  flex-direction: column;
+}
+.education--line{
+  display:none;
+}
+.box1-box1,.box1-box2,.box2-box1{
+  width:100
+}
+.box1-box1::after,.box1-box2::after,.box2-box1::after{
+  content:none;
+  }
+.education--box1, .education--box2{
+  width:100%;
+}
+.color{
+  text-align: left;
+  margin-top:2rem;
+  height:auto;
+
+}
+.Educational--section{
+ height:auto;
+}
+nav link{
+  font-size:12px;
+  padding:7px 13px;
+  border-radius: 3px;
+}
+.logo{
+  font-size:15px;
+}
+ul{
+  position: fixed;
+  width:100%;
+  height:100vh;
+  background:rgba(0, 0, 0, 0.561);
+  top:48px;
+  left:-5000px;
+  text-align: center;
+}
+.navbar--link{
+  display: block;
+  color:white;
+  padding:3rem;
+}
+link:hover{
+  background:none;
+  color:#1b9bff;
+  transition: 0.3s;
+}
+.menu--bar img{
+  /* width:20px;
+  height:20px;
+  cursor: pointer; */
+  display: block;
+}
+#check:checked ~ ul{
+  left:0px;
+  transition:all 2s ease-in-out;
+}
+}

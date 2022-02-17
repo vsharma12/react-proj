@@ -1,0 +1,72 @@
+/* <<MAIN BOX OF THE TRAVEL PORTAL>> */
+
+.main--box{
+    background-color: #fff;
+    width:30rem;
+    height:auto;
+}
+/* <<NAVBAR OF THE TRAVEL PORTAL>> */
+
+.nav--bar{
+    background-color:#e91010b4;
+    font-size:2rem;
+    height:3rem;
+    text-align: center;
+    padding:0.4rem;
+    font-family: 'Nunito Sans', sans-serif;
+}
+/* <<dataBox OF THE TRAVEL PORTAL>> */
+
+.data--box{
+    padding:0.5rem;
+}
+/* <<Card of every places OF THE TRAVEL PORTAL>> */
+
+.card{
+    margin:2rem 2rem;
+    display: flex;
+}
+/* <<data details of every place OF THE TRAVEL PORTAL>> */
+
+#deta--box{
+    font-family: 'Nunito Sans', sans-serif;
+    height:100%;
+    flex-basis:100%;
+    padding:0 1rem;
+}
+#image--box img{
+    height:100%;
+    width:100%;
+    
+}
+/* styling the deta--box */
+
+.deta--box--location{
+    /* border:1px solid red; */
+    font-size:0.8rem;
+    margin:0 0.5rem;
+    font-weight: 800;
+}
+
+.deta--box--link{
+    font-size:0.7rem;
+    color:black;
+    /* border:1px solid red; */
+    font-weight: 700;
+}
+
+.deta--box--desc{
+    /* border:1px solid black; */
+    /* padding:5px; */
+    font-size:0.8rem;
+    line-height:10px;
+}
+
+.deta--box--date{
+    margin-bottom:0.3rem;
+}
+
+.deta--box--title{
+    margin-top:0.3rem;
+}
+
